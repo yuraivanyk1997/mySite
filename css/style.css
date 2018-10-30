@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container h1,
+h2,
+h4,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+a {
+    color: white !important;
+}
+
+a:hover {
+    color: #00e0d0 !important;
+}
+
+.first-part {
+    background-image: url("../img/banner.png");
+    padding-bottom: 10%;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+.content p {
+    font-size: 1em;
+    margin-bottom: 5%;
+}
+
+.learn-more-button {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 1%;
+    border-radius: 2px;
+}
+
+.white {
+    color: #6c757d;
+    border-color: #ced4da;
+}
+
+
+.learn-more-button:hover {
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+}
+
+.second-part {
+    padding: 10% 0;
+}
+
+.second-part h1 {
+    font-size: 2em;
+}
+
+.third-part {
+    padding: 15% 0;
+    background-image: url("../img/third-part.png");
+    text-align: center;
+}
+
+.fouth-part {
+    padding: 5% 0;
+}
+
+.fouth-part h1,
+.fouth-part p {
+    text-align: center;
+}
+
+.fouth-part h1 {
+    font-size: 2em;
+}
+
+.fouth-part p {
+    font-size: 1em;
+    font-weight: bold;
+    color: #8e8d90;
+}
+
+
+
+.fouth-part .row div {
+    text-align: center;
+    padding: 3% 0;
+}
+
+.fifth-part {
+    padding: 5% 0;
+    background-image: url("../img/fifth-part.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.fifth-part h1,
+.fifth-part p {
+    color: white;
+    text-align: center;
+}
+
+.fifth-part h1 {
+    font-size: 2em;
+}
+
+.fifth-part p {
+    font-size: 1em;
+    text-align: center;
+}
+
+.fifth-part .card {
+    background-color: transparent !important;
+    border: 1px solid white;
+    border-radius: 0px;
+}
+
+.fifth-part .card h4 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.sixth-part {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.sixth-part img {
+    margin-bottom: 5%;
+}
+
+.sixth-part div div {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 2% 0;
+}
+
+.sixth-part div div div {
+    width: 50%;
+}
+
+.sixth-part h1,
+.sixth-part p {
+    margin: auto;
+    color: #413d4b;
+}
+
+.sixth-part h1 {
+    font-size: 2em;
+}
+
+.sixth-part p {
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+}
+
+.img-row {
+    margin: auto;
+}
+
+.img-row p {
+    margin: 0 auto;
+    padding: 0;
+    padding-right: 5px;
+}
+
+
+.img-row img {
+    margin: 0;
+}
+
+.seventh-part {
+    background-image: url("../img/seventh-part.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 5% 0;
+    text-align: center;
+}
+.seventh-part p {
+    font-size: 1em;
+    color: white;
+    margin: auto;
+}
+.seventh-part h1 {
+    font-size: 2em;
+    color: white;
+    margin-top: 5%;
+}
+.seventh-part p:nth-of-type(1) {
+    padding-top: 5%;
+    width: 60%;
+}
+.slider {
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 992px){
+	.border-bottom {
+    		border-bottom: 1px solid #ebebeb;
+	}
+
+	.border-right {
+    		border-right: 1px solid #ebebeb;
+	}
+}
+@media (max-width: 992px){
+	.border-bottom, .border-right {
+    	border-bottom: none;
+    	border-right: none;
+	}
+
+}
+.slider>img {
+    height: 30px;
+}
+.form-control {
+    border-radius: 0px !important;
+    width: 90% !important;
+}
+.eigth-part {
+    padding: 5% 0;
+}
+.eigth-part h1 {
+    margin-bottom: 5%;
+    font-size: 2em;
+}
+.eigth-part img {
+    display: block;
+    margin-bottom: 20%;
+}
+.ninth-part {
+    background-image: url("../img/ninth.png");
+    color: white;
+}
+.ninth-part .flex {
+    align-items: center;
+}
+.form-inline .form-control {
+    width: fit-content !important;
+    background-color: transparent !important;
+    padding: 6% !important;
+}
+.card{
+	margin-bottom: 5% !important;
+
+}
+@media (max-width: 576px) {
+    .card {
+      	width: 70%;
+        margin: auto;
+    }
+
+    .sider {
+        width: 100%;
+    }
+}
